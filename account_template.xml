@@ -133,6 +133,13 @@ this repository contains the full copyright notices and license terms. -->
             <field name="type" ref="account_type_caja_banco"/>
             <field name="parent" ref="chart_011020"/>
         </record>
+        <record id="chart_011090" model="account.account.template">
+              <field name="code">011090</field>
+              <field name="name">Caja y Bancos Transito</field>
+            <field name="type" ref="account_type_caja_banco"/>
+              <field name="parent" ref="chart_0110"/>
+        </record>
+
         <record id="chart_0120" model="account.account.template">
               <field name="code">0120</field>
               <field name="name">Cuentas por Cobrar</field>
@@ -343,6 +350,18 @@ this repository contains the full copyright notices and license terms. -->
         <record id="chart_052030" model="account.account.template">
             <field name="code">052030</field>
             <field name="name">Tanque de agua / Sistema hidroneumatico</field>
+            <field name="type" ref="account_type_gasto"/>
+            <field name="parent" ref="chart_0520"/>
+        </record>
+        <record id="chart_052035" model="account.account.template">
+            <field name="code">052035</field>
+            <field name="name">Planta Electrica</field>
+            <field name="type" ref="account_type_gasto"/>
+            <field name="parent" ref="chart_0520"/>
+        </record>
+        <record id="chart_052037" model="account.account.template">
+            <field name="code">052037</field>
+            <field name="name">Sistemas Contra Incendio</field>
             <field name="type" ref="account_type_gasto"/>
             <field name="parent" ref="chart_0520"/>
         </record>
